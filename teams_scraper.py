@@ -16,7 +16,7 @@ def store_data(team_id, output_folder):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python teams_scraper.py <team_id>. Eg: python teams_scraper.py 5000")
+        print("Usage: python teams_scraper.py <team_id>. Eg: python teams_scraper.py 25458")
         sys.exit(1)
     season = "19_20"
     output_folder = "team_" + sys.argv[1] + "_data" + season
